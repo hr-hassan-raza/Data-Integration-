@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87da52aab8af488bac06603b9543bc1f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_87da52aab8af488bac06603b9543bc1f" ></div>
+        
+</body>
+<script>    
+    
+            var map_87da52aab8af488bac06603b9543bc1f = L.map(
+                "map_87da52aab8af488bac06603b9543bc1f",
+                {
+                    center: [48.85, 2.35],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_514614b3339a47318bb5f9aa13effc86 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+            var marker_ce7218ba2f674089ba4b148d312865c9 = L.marker(
+                [133.775136, -25.274398],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_755cf631ff9949ada404380a9edca179 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5ea2f53a336422db8d6810854b263ce = $(`<div id="html_d5ea2f53a336422db8d6810854b263ce" style="width: 100.0%; height: 100.0%;">('Name: Australia "Total Cases: 6746" "Total Deaths: 90" "Mean new cases: 55.295081967213115" "Mean new deaths: 0.7377049180327869" "Std new cases: 117.08658154937672" "Std new deaths: 1.3775249015374562"',)</div>`)[0];
+            popup_755cf631ff9949ada404380a9edca179.setContent(html_d5ea2f53a336422db8d6810854b263ce);
+        
+
+        marker_ce7218ba2f674089ba4b148d312865c9.bindPopup(popup_755cf631ff9949ada404380a9edca179)
+        ;
+
+        
+    
+    
+            var marker_56c5107c2dad4f34ae6cb1851a40157d = L.marker(
+                [78.96288, 20.593684],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_982ed572968542f587090e5598f89951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f795903c6e8448389b7a05ef966ea960 = $(`<div id="html_f795903c6e8448389b7a05ef966ea960" style="width: 100.0%; height: 100.0%;">('Name: India "Total Cases: 33050" "Total Deaths: 1074" "Mean new cases: 273.1404958677686" "Mean new deaths: 8.87603305785124" "Std new cases: 514.1303386267132" "Std new deaths: 17.38321520314634"',)</div>`)[0];
+            popup_982ed572968542f587090e5598f89951.setContent(html_f795903c6e8448389b7a05ef966ea960);
+        
+
+        marker_56c5107c2dad4f34ae6cb1851a40157d.bindPopup(popup_982ed572968542f587090e5598f89951)
+        ;
+
+        
+    
+    
+            var marker_e7f0f86aea164084b6ad7a62ed12cc69 = L.marker(
+                [69.345116, 30.375321],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_35ffbd597d934804a3cc6ff27413580e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1189f111cfd40b9b9c1f452e2d46f2e = $(`<div id="html_a1189f111cfd40b9b9c1f452e2d46f2e" style="width: 100.0%; height: 100.0%;">('Name: Pakistan "Total Cases: 15759" "Total Deaths: 346" "Mean new cases: 134.69230769230768" "Mean new deaths: 2.9572649572649574" "Std new cases: 256.54304812987345" "Std new deaths: 6.080484841139758"',)</div>`)[0];
+            popup_35ffbd597d934804a3cc6ff27413580e.setContent(html_a1189f111cfd40b9b9c1f452e2d46f2e);
+        
+
+        marker_e7f0f86aea164084b6ad7a62ed12cc69.bindPopup(popup_35ffbd597d934804a3cc6ff27413580e)
+        ;
+
+        
+    
+    
+            var marker_153e2d5145484f699a8dc0cebad72aa0 = L.marker(
+                [104.195397, 35.86166],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_f3c9ea0c8085462b9181e3e500f5d89f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3215acf0ba784664a338c813005341b4 = $(`<div id="html_3215acf0ba784664a338c813005341b4" style="width: 100.0%; height: 100.0%;">('Name: China "Total Cases: 83944" "Total Deaths: 4637" "Mean new cases: 688.0655737704918" "Mean new deaths: 38.00819672131148" "Std new cases: 1660.0337532051108" "Std new deaths: 122.16872872943362"',)</div>`)[0];
+            popup_f3c9ea0c8085462b9181e3e500f5d89f.setContent(html_3215acf0ba784664a338c813005341b4);
+        
+
+        marker_153e2d5145484f699a8dc0cebad72aa0.bindPopup(popup_f3c9ea0c8085462b9181e3e500f5d89f)
+        ;
+
+        
+    
+    
+            var marker_a81efa7c5cbf405c88374f8506b44768 = L.marker(
+                [53.688046, 32.427908],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_5aeb4331184d4cb7a928a5f0a8b3b1cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c98f0de85d405c9a0cfdb45be9ecb4 = $(`<div id="html_14c98f0de85d405c9a0cfdb45be9ecb4" style="width: 100.0%; height: 100.0%;">('Name: Iran "Total Cases: 93657" "Total Deaths: 5957" "Mean new cases: 767.6803278688525" "Mean new deaths: 48.82786885245902" "Std new cases: 988.9955524421254" "Std new deaths: 60.131631453053046"',)</div>`)[0];
+            popup_5aeb4331184d4cb7a928a5f0a8b3b1cd.setContent(html_14c98f0de85d405c9a0cfdb45be9ecb4);
+        
+
+        marker_a81efa7c5cbf405c88374f8506b44768.bindPopup(popup_5aeb4331184d4cb7a928a5f0a8b3b1cd)
+        ;
+
+        
+    
+    
+            var marker_d98455f62e1e43bfac9aa2dc6d0968d5 = L.marker(
+                [4.469936, 50.503887],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_090552fe8d8d48e79ced63db60286b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c797d6bfc28c4dfe8ea1fb995b782541 = $(`<div id="html_c797d6bfc28c4dfe8ea1fb995b782541" style="width: 100.0%; height: 100.0%;">('Name: Belgium "Total Cases: 47859" "Total Deaths: 7501" "Mean new cases: 392.28688524590166" "Mean new deaths: 61.48360655737705" "Std new cases: 585.6645371494809" "Std new deaths: 109.35409416593504"',)</div>`)[0];
+            popup_090552fe8d8d48e79ced63db60286b11.setContent(html_c797d6bfc28c4dfe8ea1fb995b782541);
+        
+
+        marker_d98455f62e1e43bfac9aa2dc6d0968d5.bindPopup(popup_090552fe8d8d48e79ced63db60286b11)
+        ;
+
+        
+    
+    
+            var marker_62297b1ef3ac4ff9a07130120af0c637 = L.marker(
+                [-51.92528, -14.235004],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_76011648d51c43119d1e5eb8067b95b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4370c8a46d1c49f9a065162093be45f8 = $(`<div id="html_4370c8a46d1c49f9a065162093be45f8" style="width: 100.0%; height: 100.0%;">('Name: Brazil "Total Cases: 78162" "Total Deaths: 5466" "Mean new cases: 640.672131147541" "Mean new deaths: 44.80327868852459" "Std new cases: 1267.2450006267936" "Std new deaths: 97.40200749235883"',)</div>`)[0];
+            popup_76011648d51c43119d1e5eb8067b95b5.setContent(html_4370c8a46d1c49f9a065162093be45f8);
+        
+
+        marker_62297b1ef3ac4ff9a07130120af0c637.bindPopup(popup_76011648d51c43119d1e5eb8067b95b5)
+        ;
+
+        
+    
+    
+            var marker_119981ce12fe45428925b87abb7d5909 = L.marker(
+                [-106.346771, 56.130366],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_0eadef8820c04c2890dde95a1032838f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70f324faaa3b427eb7cfe5c24620b2df = $(`<div id="html_70f324faaa3b427eb7cfe5c24620b2df" style="width: 100.0%; height: 100.0%;">('Name: Canada "Total Cases: 51587" "Total Deaths: 2996" "Mean new cases: 422.844262295082" "Mean new deaths: 24.557377049180328" "Std new cases: 648.5947049181009" "Std new deaths: 48.48430762241794"',)</div>`)[0];
+            popup_0eadef8820c04c2890dde95a1032838f.setContent(html_70f324faaa3b427eb7cfe5c24620b2df);
+        
+
+        marker_119981ce12fe45428925b87abb7d5909.bindPopup(popup_0eadef8820c04c2890dde95a1032838f)
+        ;
+
+        
+    
+    
+            var marker_564b1911c39640cb9ba09b07fc2ab133 = L.marker(
+                [-9.429499, 6.428055],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_c9c4ce4a2d8743cdb842f050687d0dfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_646349fd2bd749119a20deb0d6587ef1 = $(`<div id="html_646349fd2bd749119a20deb0d6587ef1" style="width: 100.0%; height: 100.0%;">('Name: Liberia "Total Cases: 141" "Total Deaths: 16" "Mean new cases: 3.1333333333333333" "Mean new deaths: 0.35555555555555557" "Std new cases: 4.6348482371937685" "Std new deaths: 0.8299933065325822"',)</div>`)[0];
+            popup_c9c4ce4a2d8743cdb842f050687d0dfb.setContent(html_646349fd2bd749119a20deb0d6587ef1);
+        
+
+        marker_564b1911c39640cb9ba09b07fc2ab133.bindPopup(popup_c9c4ce4a2d8743cdb842f050687d0dfb)
+        ;
+
+        
+    
+    
+            var marker_a55db872de204b918954fb940a2d0781 = L.marker(
+                [166.647, 19.2823],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_88de87ad730a4eb187d66d0b0445c573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce47332ae1d47a697106723a3826981 = $(`<div id="html_2ce47332ae1d47a697106723a3826981" style="width: 100.0%; height: 100.0%;">('Name: United States Virgin Islands "Total Cases: 66" "Total Deaths: 4" "Mean new cases: 1.7837837837837838" "Mean new deaths: 0.10810810810810811" "Std new cases: 3.4004504206153428" "Std new deaths: 0.3148000938676784"',)</div>`)[0];
+            popup_88de87ad730a4eb187d66d0b0445c573.setContent(html_2ce47332ae1d47a697106723a3826981);
+        
+
+        marker_a55db872de204b918954fb940a2d0781.bindPopup(popup_88de87ad730a4eb187d66d0b0445c573)
+        ;
+
+        
+    
+    
+            var marker_31898571972d4409bc3d84d1d47e4bf3 = L.marker(
+                [-95.712891, 37.09024],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_242999671ed649e7b6feb20a35443d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dbcad2c97634c9f8d2c9af3b139bfa6 = $(`<div id="html_5dbcad2c97634c9f8d2c9af3b139bfa6" style="width: 100.0%; height: 100.0%;">('Name: United States "Total Cases: 1039909" "Total Deaths: 60966" "Mean new cases: 8523.844262295082" "Mean new deaths: 499.72131147540983" "Std new cases: 12870.842184148803" "Std new deaths: 925.5733738884013"',)</div>`)[0];
+            popup_242999671ed649e7b6feb20a35443d34.setContent(html_5dbcad2c97634c9f8d2c9af3b139bfa6);
+        
+
+        marker_31898571972d4409bc3d84d1d47e4bf3.bindPopup(popup_242999671ed649e7b6feb20a35443d34)
+        ;
+
+        
+    
+    
+            var marker_f652179dfe0940be8e473f45722a9e06 = L.marker(
+                [9.537499, 33.886917],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_74c752d4074848c7bdbb32c1ceab7a19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99153ff4bbf144788f9b31ae6cfb18e8 = $(`<div id="html_99153ff4bbf144788f9b31ae6cfb18e8" style="width: 100.0%; height: 100.0%;">('Name: Tanzania "Total Cases: 480" "Total Deaths: 16" "Mean new cases: 10.666666666666666" "Mean new deaths: 0.35555555555555557" "Std new cases: 29.5296461204668" "Std new deaths: 1.069314894422753"',)</div>`)[0];
+            popup_74c752d4074848c7bdbb32c1ceab7a19.setContent(html_99153ff4bbf144788f9b31ae6cfb18e8);
+        
+
+        marker_f652179dfe0940be8e473f45722a9e06.bindPopup(popup_74c752d4074848c7bdbb32c1ceab7a19)
+        ;
+
+        
+    
+    
+            var marker_31a1d0669b0449f7b4fc2629df57ea1f = L.marker(
+                [14.550072, 47.516231],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_7c3261937e694bb48839e8bbf9ab9e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5e7b0d7df7645379b4a413bda13eb1e = $(`<div id="html_c5e7b0d7df7645379b4a413bda13eb1e" style="width: 100.0%; height: 100.0%;">('Name: Austria "Total Cases: 15364" "Total Deaths: 580" "Mean new cases: 125.93442622950819" "Mean new deaths: 4.754098360655738" "Std new cases: 221.28201734830188" "Std new deaths: 7.986881263723891"',)</div>`)[0];
+            popup_7c3261937e694bb48839e8bbf9ab9e33.setContent(html_c5e7b0d7df7645379b4a413bda13eb1e);
+        
+
+        marker_31a1d0669b0449f7b4fc2629df57ea1f.bindPopup(popup_7c3261937e694bb48839e8bbf9ab9e33)
+        ;
+
+        
+    
+    
+            var marker_7e6a884251f948a08357dce966233320 = L.marker(
+                [67.709953, 33.93911],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_9de784f137a747d9acad1962bf02d0e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4872230ba26d49c6b7c96d9197fa976b = $(`<div id="html_4872230ba26d49c6b7c96d9197fa976b" style="width: 100.0%; height: 100.0%;">('Name: Afghanistan "Total Cases: 1949" "Total Deaths: 60" "Mean new cases: 17.401785714285715" "Mean new deaths: 0.5357142857142857" "Std new cases: 32.65226557580572" "Std new deaths: 1.361825559522531"',)</div>`)[0];
+            popup_9de784f137a747d9acad1962bf02d0e6.setContent(html_4872230ba26d49c6b7c96d9197fa976b);
+        
+
+        marker_7e6a884251f948a08357dce966233320.bindPopup(popup_9de784f137a747d9acad1962bf02d0e6)
+        ;
+
+        
+    
+    
+            var marker_8db6ded8970746ea9652d62f2da0ba2b = L.marker(
+                [35.243322, 38.963745],
+                {}
+            ).addTo(map_87da52aab8af488bac06603b9543bc1f);
+        
+    
+        var popup_4d465fcf952548c5922657a91e87bba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2d221670c014364bf8087410bad7e7a = $(`<div id="html_e2d221670c014364bf8087410bad7e7a" style="width: 100.0%; height: 100.0%;">('Name: Turkey "Total Cases: 117589" "Total Deaths: 3081" "Mean new cases: 2449.7708333333335" "Mean new deaths: 64.1875" "Std new cases: 1666.9515460875118" "Std new deaths: 46.3605923309506"',)</div>`)[0];
+            popup_4d465fcf952548c5922657a91e87bba6.setContent(html_e2d221670c014364bf8087410bad7e7a);
+        
+
+        marker_8db6ded8970746ea9652d62f2da0ba2b.bindPopup(popup_4d465fcf952548c5922657a91e87bba6)
+        ;
+
+        
+    
+</script>
